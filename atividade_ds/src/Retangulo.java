@@ -16,7 +16,6 @@ public class Retangulo extends Figura {
         this.lado1 = lado1;
     }
 
-    // Getter e setter para o lado2
     public double getLado2() {
         return lado2;
     }
