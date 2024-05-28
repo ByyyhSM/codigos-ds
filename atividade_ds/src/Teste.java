@@ -1,25 +1,27 @@
 public class Teste {
     public static void main(String[] args) {
 
-        int i = 10;
         Retangulo retangulo = new Retangulo(5, 10);
-        retangulo.setCor("Verde");
-        System.out.println("Área do retângulo: " + retangulo.area());
-        System.out.println("Cor do retângulo: " + retangulo.getCor());
+        retangulo.setCor("Azul");
+        System.out.println("Retangulo - Cor: " + retangulo.getCor());
+        System.out.println("Retangulo - Área: " + retangulo.area());
 
-        Triangulo triangulo = new Triangulo(3, 4);
-        triangulo.setCor("Azul");
-        System.out.println("Área do triângulo: " + triangulo.area());
-        System.out.println("Cor do triângulo: " + triangulo.getCor());
+
+        Triangulo triangulo = new Triangulo(5, 10);
+        triangulo.setCor("Vermelho");
+        System.out.println("Triangulo - Cor: " + triangulo.getCor());
+        System.out.println("Triangulo - Área: " + triangulo.area());
+
 
         Circulo circulo = new Circulo(5);
-        circulo.setCor("Vermelho");
-        System.out.println("Diâmetro do círculo: " + circulo.getDiametro());
-        System.out.println("Cor do círculo: " + circulo.getCor());
+        circulo.setCor("Verde");
+        System.out.println("Circulo - Cor: " + circulo.getCor());
+        System.out.println("Circulo - Diâmetro: " + circulo.getDiametro());
 
-        Quadrado quadrado = new Quadrado(6);
+
+        Quadrado quadrado = new Quadrado(5);
         quadrado.setCor("Amarelo");
-        System.out.println("Área do quadrado: " + quadrado.area());
-        System.out.println("Cor do quadrado: " + quadrado.getCor());
+        System.out.println("Quadrado - Cor: " + quadrado.getCor());
+        System.out.println("Quadrado - Área: " + quadrado.area());
     }
 }
