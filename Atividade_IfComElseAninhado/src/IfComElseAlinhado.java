@@ -11,7 +11,7 @@ public class IfComElseAlinhado {
                 } else if (mes == 2) {
                     aux = "Fevereiro";
                 } else if (mes == 3) {
-                    aux = "Marco";
+                    aux = "Março";
                 } else if (mes == 4) {
                     aux = "Abril";
                 } else if (mes == 5) {
@@ -29,7 +29,7 @@ public class IfComElseAlinhado {
                 } else if (mes == 11) {
                     aux = "Novembro";
                 } else if (mes == 12) {
-                    aux = "Dezmbro";
+                    aux = "Dezembro";
                 } else {
                     aux = "Mes desconhecido!";
                 }
